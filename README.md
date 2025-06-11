@@ -95,10 +95,6 @@ Projeyi kendi ihtiyaçlarınıza göre özelleştirmek için:
 - [GitHub](https://github.com/yasintuncc)
 - [Instagram](https://www.instagram.com/yasintuncc27)
 
-## 📄 Lisans
-
-Bu proje MIT lisansı altında lisanslanmıştır. Daha fazla bilgi için `LICENSE` dosyasına bakın.
-
 ## 👨‍💻 Geliştirici
 
 Yasin Tunç
@@ -106,7 +102,3 @@ Yasin Tunç
 - Email: yasin.tncc22@gmail.com
 - GitHub: [@yasintuncc](https://github.com/yasintuncc)
 - LinkedIn: [Yasin Tunç](https://www.linkedin.com/in/yasin-tun%C3%A7-b4a822269/)
-
-## 🙏 Teşekkürler
-
-Bu projeyi geliştirmeme yardımcı olan herkese teşekkürler!
