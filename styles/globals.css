@@ -1,0 +1,105 @@
+/* Light mode (default) */
+body[data-theme="light"] {
+  background: #f8f9fa;
+  color: #222;
+}
+
+/* Dark mode */
+html[data-theme="dark"], body[data-theme="dark"] {
+  background: #181a1b !important;
+  color: #f8f9fa !important;
+  transition: background 1s, color 1s;
+}
+
+html[data-theme="dark"] .section,
+html[data-theme="dark"] .card,
+html[data-theme="dark"] .navbar-main,
+body[data-theme="dark"] .section,
+body[data-theme="dark"] .card,
+body[data-theme="dark"] .navbar-main {
+  background: #23272f !important;
+  color: #f8f9fa !important;
+  transition: background 1s, color 1s;
+}
+
+html[data-theme="dark"] .btn,
+html[data-theme="dark"] .btn-white,
+body[data-theme="dark"] .btn,
+body[data-theme="dark"] .btn-white {
+  background: #23272f !important;
+  color: #f8f9fa !important;
+  border-color: #444 !important;
+  transition: background 1s, color 1s, border-color 1s;
+}
+
+html[data-theme="dark"] .icon-shape,
+body[data-theme="dark"] .icon-shape {
+  background: #23272f !important;
+  transition: background 1s;
+}
+
+html[data-theme="dark"] .lead,
+html[data-theme="dark"] .display-3,
+html[data-theme="dark"] .h1,
+html[data-theme="dark"] .h2,
+html[data-theme="dark"] .h3,
+html[data-theme="dark"] .h4,
+html[data-theme="dark"] .h5,
+html[data-theme="dark"] .h6,
+body[data-theme="dark"] .lead,
+body[data-theme="dark"] .display-3,
+body[data-theme="dark"] .h1,
+body[data-theme="dark"] .h2,
+body[data-theme="dark"] .h3,
+body[data-theme="dark"] .h4,
+body[data-theme="dark"] .h5,
+body[data-theme="dark"] .h6 {
+  color: #ffd700 !important;
+  transition: color 1s;
+}
+
+html[data-theme="dark"] .heading,
+body[data-theme="dark"] .heading {
+  color: #ffd700 !important;
+  transition: color 1s;
+}
+
+html[data-theme="dark"] .progress-label span,
+html[data-theme="dark"] .progress-label,
+html[data-theme="dark"] .progress-percentage span,
+html[data-theme="dark"] .schoolName,
+html[data-theme="dark"] .subHeader,
+html[data-theme="dark"] .company,
+html[data-theme="dark"] .role,
+html[data-theme="dark"] .project-name,
+html[data-theme="dark"] .project-title,
+html[data-theme="dark"] .feedback-name,
+html[data-theme="dark"] .Stack,
+html[data-theme="dark"] .stack,
+html[data-theme="dark"] .project-list-item,
+html[data-theme="dark"] .badge,
+html[data-theme="dark"] .icon-shape .iconify,
+body[data-theme="dark"] .progress-label span,
+body[data-theme="dark"] .progress-label,
+body[data-theme="dark"] .progress-percentage span,
+body[data-theme="dark"] .schoolName,
+body[data-theme="dark"] .subHeader,
+body[data-theme="dark"] .company,
+body[data-theme="dark"] .role,
+body[data-theme="dark"] .project-name,
+body[data-theme="dark"] .project-title,
+body[data-theme="dark"] .feedback-name,
+body[data-theme="dark"] .Stack,
+body[data-theme="dark"] .stack,
+body[data-theme="dark"] .project-list-item,
+body[data-theme="dark"] .badge,
+body[data-theme="dark"] .icon-shape .iconify {
+  color: #00bcd4 !important;
+  transition: color 1s;
+}
+
+html[data-theme="dark"] .subHeader,
+body[data-theme="dark"] .subHeader {
+  color: #00bcd4 !important;
+  transition: color 1s;
+} 
