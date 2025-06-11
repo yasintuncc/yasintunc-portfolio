@@ -52,13 +52,7 @@ export const skillsSection: SkillsSectionType = {
         emoji("⚡ Extracting insights with data analysis and visualization (pandas, matplotlib, Numpy, seaborn)"),
         emoji("⚡ Data preprocessing, model training and evaluation in AI projects"),
       ],
-      style: {
-        textAlign: "center",
-        display: "flex",
-        flexDirection: "column",
-        alignItems: "center",
-        justifyContent: "center"
-      },
+      
       softwareSkills: [
         {
           skillName: "Python",
@@ -199,6 +193,11 @@ export const projects: ProjectType[] = [
     desc: "In this project, I aimed to determine the quality of water by evaluating the chemical analysis results of water samples.",
     github: "https://github.com/yasintuncc/Determination_of_Water_Analysis",
     
+  },
+  {
+    name: "my personal website",
+    desc: "A modern and responsive portfolio website built with React.js and TypeScript. Features include animated components, SEO optimization, and a clean user interface. The site showcases my skills, projects, and experiences in web development and artificial intelligence. Implemented with best practices in React development, including component-based architecture and responsive design principles.",
+    github: "https://github.com/yasintuncc/yasintunc-portfolio",
   },
   {
     name: "MicroService E-Commerce Site",
