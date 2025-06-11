@@ -196,7 +196,7 @@ export const projects: ProjectType[] = [
   },
   {
     name: "my personal website",
-    desc: "A modern and responsive portfolio website built with React.js and TypeScript. Features include animated components, SEO optimization, and a clean user interface. The site showcases my skills, projects, and experiences in web development and artificial intelligence. Implemented with best practices in React development, including component-based architecture and responsive design principles.",
+    desc: "A modern portfolio website showcasing my web development and AI skills. Built with React.js and TypeScript, featuring animated components and responsive design. The site presents my projects, experiences, and technical expertise in a clean, user-friendly interface.",
     github: "https://github.com/yasintuncc/yasintunc-portfolio",
   },
   {
