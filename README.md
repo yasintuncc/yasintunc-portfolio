@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Yasin Tunç Portfolio Website
 
 ## Açıklama
@@ -111,7 +110,3 @@ Yasin Tunç
 ## 🙏 Teşekkürler
 
 Bu projeyi geliştirmeme yardımcı olan herkese teşekkürler!
-=======
-# yasintunc-portfolio
-My personal portfolio website
->>>>>>> 5cd7a02b3ac160b2bb6e1c4a072f389d4d7a457b
