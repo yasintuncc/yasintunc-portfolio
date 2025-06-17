@@ -1,7 +1,5 @@
 # Yasin Tunç Portfolio Website
 
-## Açıklama
-
 Yasin Tunç'un kişisel portfolyo web sitesi. Bu proje, yazılım geliştirme alanındaki yeteneklerimi, projelerimi ve
 deneyimlerimi modern ve şık bir arayüzle sergilemek amacıyla hazırlanmıştır. Web geliştirme (React.js, Node.js, HTML,
 CSS, JavaScript) ve yapay zeka (Python, scikit-learn, TensorFlow) alanlarındaki bilgi ve tecrübelerimi, kullanıcı dostu
@@ -17,7 +15,7 @@ Portfolyo sitesi sayesinde:
 
 Bu site, hem potansiyel işverenler hem de yazılım topluluğu için referans niteliğindedir.
 
-## 🚀 Özellikler
+## 🚀 Özellikler:
 
 - Responsive tasarım
 - Modern ve şık arayüz
