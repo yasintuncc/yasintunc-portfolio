@@ -102,4 +102,636 @@ html[data-theme="dark"] .subHeader,
 body[data-theme="dark"] .subHeader {
   color: #00bcd4 !important;
   transition: color 1s;
+}
+
+/* Contact Form Input Styling */
+.contact-form-input::placeholder {
+  color: #6c757d !important;
+  opacity: 0.8 !important;
+  font-style: normal;
+}
+
+.contact-form-input:focus::placeholder {
+  opacity: 0.6 !important;
+}
+
+.contact-form-input {
+  background-color: #ffffff !important;
+  border: 2px solid #dee2e6 !important;
+  color: #212529 !important;
+  font-weight: 500 !important;
+}
+
+.contact-form-input:focus {
+  outline: none !important;
+  background-color: #ffffff !important;
+  border-color: #11CDEF !important;
+  border-width: 2px !important;
+  box-shadow: 0 0 0 0.2rem rgba(17, 205, 239, 0.25) !important;
+}
+
+.contact-form-input:invalid {
+  border-color: #dc3545 !important;
+  border-width: 2px !important;
+}
+
+/* Dark mode placeholder */
+html[data-theme="dark"] .contact-form-input::placeholder,
+body[data-theme="dark"] .contact-form-input::placeholder {
+  color: #adb5bd !important;
+  opacity: 0.7 !important;
+}
+
+html[data-theme="dark"] .contact-form-input,
+body[data-theme="dark"] .contact-form-input {
+  background-color: #2d3238 !important;
+  border-color: #495057 !important;
+  color: #f8f9fa !important;
+}
+
+html[data-theme="dark"] .contact-form-input:focus,
+body[data-theme="dark"] .contact-form-input:focus {
+  background-color: #23272f !important;
+  border-color: #11CDEF !important;
+  box-shadow: 0 0 0 0.2rem rgba(17, 205, 239, 0.3) !important;
+}
+
+/* ============================================
+   DARK MODE İYİLEŞTİRMELERİ
+   ============================================ */
+
+/* Input Group Dark Mode */
+html[data-theme="dark"] .input-group-text,
+body[data-theme="dark"] .input-group-text {
+  background-color: #2d3238 !important;
+  border-color: #495057 !important;
+  color: #f8f9fa !important;
+}
+
+html[data-theme="dark"] .input-group input,
+html[data-theme="dark"] .input-group .form-control,
+body[data-theme="dark"] .input-group input,
+body[data-theme="dark"] .input-group .form-control {
+  background-color: #2d3238 !important;
+  border-color: #495057 !important;
+  color: #f8f9fa !important;
+}
+
+html[data-theme="dark"] .input-group input::placeholder,
+html[data-theme="dark"] .input-group .form-control::placeholder,
+body[data-theme="dark"] .input-group input::placeholder,
+body[data-theme="dark"] .input-group .form-control::placeholder {
+  color: #adb5bd !important;
+  opacity: 0.7 !important;
+}
+
+html[data-theme="dark"] .input-group input:focus,
+html[data-theme="dark"] .input-group .form-control:focus,
+body[data-theme="dark"] .input-group input:focus,
+body[data-theme="dark"] .input-group .form-control:focus {
+  background-color: #23272f !important;
+  border-color: #11CDEF !important;
+  box-shadow: 0 0 0 0.2rem rgba(17, 205, 239, 0.25) !important;
+}
+
+/* Label Dark Mode */
+html[data-theme="dark"] label,
+body[data-theme="dark"] label {
+  color: #e9ecef !important;
+}
+
+html[data-theme="dark"] .text-muted,
+body[data-theme="dark"] .text-muted {
+  color: #adb5bd !important;
+}
+
+/* Button Dark Mode İyileştirmeleri */
+html[data-theme="dark"] .btn-outline-secondary,
+body[data-theme="dark"] .btn-outline-secondary {
+  border-color: #495057 !important;
+  color: #e9ecef !important;
+}
+
+html[data-theme="dark"] .btn-outline-secondary:hover,
+body[data-theme="dark"] .btn-outline-secondary:hover {
+  background-color: #495057 !important;
+  border-color: #495057 !important;
+  color: #ffffff !important;
+}
+
+html[data-theme="dark"] .btn-secondary,
+body[data-theme="dark"] .btn-secondary {
+  background-color: #495057 !important;
+  border-color: #495057 !important;
+  color: #ffffff !important;
+}
+
+html[data-theme="dark"] .btn-secondary:hover,
+body[data-theme="dark"] .btn-secondary:hover {
+  background-color: #5a6268 !important;
+  border-color: #5a6268 !important;
+}
+
+html[data-theme="dark"] .btn-info,
+body[data-theme="dark"] .btn-info {
+  background-color: #11CDEF !important;
+  border-color: #11CDEF !important;
+  color: #ffffff !important;
+}
+
+html[data-theme="dark"] .btn-info:hover,
+body[data-theme="dark"] .btn-info:hover {
+  background-color: #0ea5c6 !important;
+  border-color: #0ea5c6 !important;
+  box-shadow: 0 8px 16px rgba(17, 205, 239, 0.4) !important;
+}
+
+/* Card Dark Mode İyileştirmeleri */
+html[data-theme="dark"] .card,
+body[data-theme="dark"] .card {
+  background-color: #23272f !important;
+  border-color: #343a40 !important;
+  color: #f8f9fa !important;
+}
+
+html[data-theme="dark"] .card-body,
+body[data-theme="dark"] .card-body {
+  color: #f8f9fa !important;
+}
+
+/* Navbar Dark Mode */
+html[data-theme="dark"] .navbar-main,
+body[data-theme="dark"] .navbar-main {
+  background-color: rgba(35, 39, 47, 0.95) !important;
+  backdrop-filter: blur(10px);
+}
+
+html[data-theme="dark"] .navbar-light .navbar-toggler,
+body[data-theme="dark"] .navbar-light .navbar-toggler {
+  border-color: #495057 !important;
+}
+
+html[data-theme="dark"] .navbar-light .navbar-toggler-icon,
+body[data-theme="dark"] .navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28233, 236, 239, 0.85%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
+/* Theme Toggle Button Dark Mode */
+html[data-theme="dark"] .theme-toggle-button,
+body[data-theme="dark"] .theme-toggle-button {
+  background: rgba(255, 255, 255, 0.1) !important;
+  backdrop-filter: blur(10px);
+}
+
+html[data-theme="dark"] .theme-toggle-button:hover,
+body[data-theme="dark"] .theme-toggle-button:hover {
+  background: rgba(255, 255, 255, 0.15) !important;
+}
+
+/* Section Dark Mode */
+html[data-theme="dark"] .section,
+body[data-theme="dark"] .section {
+  background-color: #181a1b !important;
+}
+
+/* Input Focus Ring Dark Mode */
+html[data-theme="dark"] input:focus,
+html[data-theme="dark"] textarea:focus,
+html[data-theme="dark"] select:focus,
+body[data-theme="dark"] input:focus,
+body[data-theme="dark"] textarea:focus,
+body[data-theme="dark"] select:focus {
+  border-color: #11CDEF !important;
+  box-shadow: 0 0 0 0.2rem rgba(17, 205, 239, 0.25) !important;
+}
+
+/* Link Dark Mode */
+html[data-theme="dark"] a,
+body[data-theme="dark"] a {
+  color: #11CDEF !important;
+}
+
+html[data-theme="dark"] a:hover,
+body[data-theme="dark"] a:hover {
+  color: #0ea5c6 !important;
+}
+
+/* Badge Dark Mode İyileştirmeleri */
+html[data-theme="dark"] .badge-primary,
+body[data-theme="dark"] .badge-primary {
+  background-color: #11CDEF !important;
+  color: #ffffff !important;
+}
+
+html[data-theme="dark"] .badge-info,
+body[data-theme="dark"] .badge-info {
+  background-color: #11CDEF !important;
+  color: #ffffff !important;
+}
+
+html[data-theme="dark"] .badge-secondary,
+body[data-theme="dark"] .badge-secondary {
+  background-color: #495057 !important;
+  color: #ffffff !important;
+}
+
+/* Empty State Dark Mode */
+html[data-theme="dark"] .text-center .text-muted,
+body[data-theme="dark"] .text-center .text-muted {
+  color: #adb5bd !important;
+}
+
+/* Filter Label Dark Mode */
+html[data-theme="dark"] .filter-label,
+body[data-theme="dark"] .filter-label {
+  color: #e9ecef !important;
+}
+
+/* Smooth Theme Transition */
+html,
+body {
+  transition: background-color 0.3s ease, color 0.3s ease !important;
+}
+
+/* Selective transitions for better performance */
+.section,
+.card,
+.btn,
+input,
+textarea,
+select,
+.badge,
+.navbar-main {
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease !important;
+}
+
+/* Project Detail Page Dark Mode */
+html[data-theme="dark"] .display-4,
+html[data-theme="dark"] .h1,
+html[data-theme="dark"] .h2,
+html[data-theme="dark"] .h3,
+html[data-theme="dark"] .h4,
+html[data-theme="dark"] .h5,
+html[data-theme="dark"] .lead,
+body[data-theme="dark"] .display-4,
+body[data-theme="dark"] .h1,
+body[data-theme="dark"] .h2,
+body[data-theme="dark"] .h3,
+body[data-theme="dark"] .h4,
+body[data-theme="dark"] .h5,
+body[data-theme="dark"] .lead {
+  color: #f8f9fa !important;
+}
+
+html[data-theme="dark"] .text-info,
+body[data-theme="dark"] .text-info {
+  color: #11CDEF !important;
+}
+
+/* Border Dark Mode */
+html[data-theme="dark"] .border-top,
+html[data-theme="dark"] .border-bottom,
+html[data-theme="dark"] .border,
+body[data-theme="dark"] .border-top,
+body[data-theme="dark"] .border-bottom,
+body[data-theme="dark"] .border {
+  border-color: #495057 !important;
+}
+
+/* Container Dark Mode */
+html[data-theme="dark"] .container,
+body[data-theme="dark"] .container {
+  color: #f8f9fa !important;
+}
+
+/* Form Group Dark Mode */
+html[data-theme="dark"] .form-group label,
+body[data-theme="dark"] .form-group label {
+  color: #e9ecef !important;
+}
+
+/* Alert/Error Messages Dark Mode */
+html[data-theme="dark"] .text-danger,
+body[data-theme="dark"] .text-danger {
+  color: #ff6b6b !important;
+}
+
+html[data-theme="dark"] .text-success,
+body[data-theme="dark"] .text-success {
+  color: #51cf66 !important;
+}
+
+/* Spinner Dark Mode */
+html[data-theme="dark"] .spinner-border,
+body[data-theme="dark"] .spinner-border {
+  border-color: #11CDEF !important;
+  border-right-color: transparent !important;
+}
+
+/* Contact Form Card Dark Mode */
+html[data-theme="dark"] .contact-form-card,
+body[data-theme="dark"] .contact-form-card {
+  background: linear-gradient(to bottom, #23272f, #1a1d23) !important;
+}
+
+html[data-theme="light"] .contact-form-card,
+body[data-theme="light"] .contact-form-card {
+  background: linear-gradient(to bottom, #ffffff, #f8f9fa) !important;
+}
+
+/* Alert Dark Mode */
+html[data-theme="dark"] .alert,
+body[data-theme="dark"] .alert {
+  background-color: #23272f !important;
+  border-color: #495057 !important;
+  color: #f8f9fa !important;
+}
+
+html[data-theme="dark"] .alert-success,
+body[data-theme="dark"] .alert-success {
+  background-color: rgba(81, 207, 102, 0.1) !important;
+  border-color: #51cf66 !important;
+  color: #51cf66 !important;
+}
+
+html[data-theme="dark"] .alert-danger,
+body[data-theme="dark"] .alert-danger {
+  background-color: rgba(255, 107, 107, 0.1) !important;
+  border-color: #ff6b6b !important;
+  color: #ff6b6b !important;
+}
+
+html[data-theme="dark"] .alert .close,
+body[data-theme="dark"] .alert .close {
+  color: #f8f9fa !important;
+  opacity: 0.8;
+}
+
+html[data-theme="dark"] .alert .close:hover,
+body[data-theme="dark"] .alert .close:hover {
+  opacity: 1;
+}
+
+/* Icon Dark Mode */
+html[data-theme="dark"] .fa,
+html[data-theme="dark"] .ni,
+body[data-theme="dark"] .fa,
+body[data-theme="dark"] .ni {
+  color: inherit;
+}
+
+/* Textarea Dark Mode */
+html[data-theme="dark"] textarea,
+body[data-theme="dark"] textarea {
+  background-color: #2d3238 !important;
+  border-color: #495057 !important;
+  color: #f8f9fa !important;
+}
+
+html[data-theme="dark"] textarea::placeholder,
+body[data-theme="dark"] textarea::placeholder {
+  color: #adb5bd !important;
+  opacity: 0.7 !important;
+}
+
+html[data-theme="dark"] textarea:focus,
+body[data-theme="dark"] textarea:focus {
+  background-color: #23272f !important;
+  border-color: #11CDEF !important;
+  box-shadow: 0 0 0 0.2rem rgba(17, 205, 239, 0.25) !important;
+}
+
+/* ============================================
+   GELİŞMİŞ ANİMASYONLAR
+   ============================================ */
+
+/* Proje Kartı Hover Animasyonları */
+.project-card-animated {
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.project-card-animated:hover {
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15) !important;
+}
+
+.project-card-animated:hover .badge {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+/* Buton Animasyonları */
+.animated-button {
+  position: relative;
+  overflow: hidden;
+  transform: translateZ(0);
+}
+
+.animated-button::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.3);
+  transform: translate(-50%, -50%);
+  transition: width 0.6s, height 0.6s;
+}
+
+.animated-button:hover::before {
+  width: 300px;
+  height: 300px;
+}
+
+.animated-button:hover {
+  transform: translateY(-2px) scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2) !important;
+}
+
+.animated-button:active {
+  transform: translateY(0) scale(0.98);
+  transition: transform 0.1s ease;
+}
+
+/* Badge Animasyonları */
+.badge {
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.badge:hover {
+  transform: scale(1.15) translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Input Focus Animasyonları */
+.contact-form-input {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+.contact-form-input:focus {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(17, 205, 239, 0.3) !important;
+}
+
+/* Filtre Butonları Animasyonları */
+.btn-sm {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-sm::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.2);
+  transform: translate(-50%, -50%);
+  transition: width 0.4s, height 0.4s;
+}
+
+.btn-sm:hover::after {
+  width: 200px;
+  height: 200px;
+}
+
+.btn-sm:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.btn-sm:active {
+  transform: translateY(0);
+}
+
+/* Scroll Animasyonları için Staggered Effect */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in-up {
+  animation: fadeInUp 0.6s ease-out forwards;
+}
+
+/* Icon Animasyonları */
+.icon-shape {
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.icon-shape:hover {
+  transform: rotate(5deg) scale(1.1);
+}
+
+/* Link Animasyonları */
+a {
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  transform: translateX(3px);
+}
+
+/* Card İçerik Animasyonları */
+.project-card-animated h4 {
+  transition: color 0.3s ease;
+}
+
+.project-card-animated:hover h4 {
+  color: #11CDEF;
+}
+
+/* Smooth Scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Loading Animasyonu */
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.pulse-animation {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* Shake Animasyonu (Hata durumları için) */
+@keyframes shake {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  10%, 30%, 50%, 70%, 90% {
+    transform: translateX(-5px);
+  }
+  20%, 40%, 60%, 80% {
+    transform: translateX(5px);
+  }
+}
+
+.shake-animation {
+  animation: shake 0.5s ease-in-out;
+}
+
+/* Dark Mode Animasyon İyileştirmeleri */
+html[data-theme="dark"] .project-card-animated:hover,
+body[data-theme="dark"] .project-card-animated:hover {
+  box-shadow: 0 20px 40px rgba(17, 205, 239, 0.2) !important;
+}
+
+html[data-theme="dark"] .animated-button:hover,
+body[data-theme="dark"] .animated-button:hover {
+  box-shadow: 0 8px 16px rgba(17, 205, 239, 0.3) !important;
+}
+
+/* Arama Input Animasyonu */
+.input-group {
+  transition: all 0.3s ease;
+}
+
+.input-group:focus-within {
+  transform: scale(1.02);
+}
+
+/* Filtre Butonları - Aktif Durum */
+.btn-info:not(:disabled):not(.disabled):active,
+.btn-info:not(:disabled):not(.disabled).active {
+  animation: pulse 0.5s ease;
+}
+
+/* Smooth Transitions for All Interactive Elements */
+button, a, .btn, input, select, textarea {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Page Transition Effect */
+@keyframes pageFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.page-transition {
+  animation: pageFadeIn 0.5s ease-out;
 } 

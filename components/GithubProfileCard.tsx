@@ -12,7 +12,7 @@ const GithubProfileCard = () => {
             <Col className="order-lg-2" lg="4">
               <img
                 src={contactInfo.avatar_url}
-                style={{ width: "200px" }}
+                style={{ width: "200px", height: "200px", objectFit: "cover" }}
                 alt="avatar"
                 className="rounded-circle img-center img-fluid shadow shadow-lg--hover mb-4"
               />
@@ -22,7 +22,7 @@ const GithubProfileCard = () => {
                 Contact Me!!
               </h2>
               <p className="lead text-white mb-3" style={{ fontSize: "1.15rem", fontWeight: 500 }}>
-                You can always reach out to me for collaboration on your projects or just to chat about technology.
+                You can always contact me to collaborate on your projects, work together, or just chat about technology.
                 <br />
                 <span style={{ fontWeight: 600, color: "#ffd700" }}>I am open to new opportunities!</span>
               </p>
@@ -37,7 +37,7 @@ const GithubProfileCard = () => {
                     textShadow: "0 1px 8px rgba(0,0,0,0.12)",
                   }}
                 >
-                  Frontend & Artificial Intelligence Developer
+                  Frontend & Artificial Intelligence Engineer
                 </span>
               </div>
               <div

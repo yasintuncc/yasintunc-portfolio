@@ -69,15 +69,24 @@ export type ExperienceType = {
   date: string;
   desc: string;
   descBullets?: string[];
+  location?: string;
+  workType?: string; // "Remote" or "On-site"
+  skills?: string[];
 };
 
 // * PROJECT SECTION
 
 export type ProjectType = {
+  id?: string;
+  slug?: string;
   name: string;
   desc: string;
   github?: string;
   link?: string;
+  technologies?: string[];
+  images?: string[];
+  category?: string;
+  date?: string;
 };
 
 // * FEEDBACK SECTION

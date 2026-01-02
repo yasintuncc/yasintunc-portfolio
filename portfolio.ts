@@ -16,7 +16,7 @@ export const greetings: GreetingsType = {
   title: "Hello, I'm Yasin",
   description:
     "I am Yasin, an engineer with increasing competence in the field of software development. I am particularly interested in web development and artificial intelligence. I have worked on projects aimed at developing user-friendly web interfaces using technologies such as Python, JavaScript, React.js, and Node.js. Additionally, I am working in the fields of artificial intelligence, machine learning, and deep learning, developing basic projects to improve myself in these areas. I am someone who loves learning new technologies, is curious about research, and aims to continuously progress.",
-    resumeLink: "/ornekcv.pdf",
+    resumeLink: "/Yasin_Tunc_CV  .pdf",
 };
 
 export const openSource = {
@@ -24,8 +24,8 @@ export const openSource = {
 };
 
 export const contactInfo = {
-  avatar_url: "/1747320462234.jpeg", // updated photo in public folder
-  bio: "Frontend and Artificial Intelligence Developer | HTML CSS JAVASCRIPT | REACT JS | NODE JS, and C# | SQL SERVER | POSTGRE SQL | PYTHON",
+  avatar_url: "/lottie/Ekran görüntüsü 2026-01-02 220640.png", // updated photo in public folder
+  bio: "Frontend and Artificial Intelligence Engineer | HTML CSS JAVASCRIPT | REACT JS | NODE JS  and C# | SQL SERVER | POSTGRE SQL | PYTHON",
   location: "Diyarbakır, Turkey"
 };
 
@@ -166,53 +166,108 @@ export const educationInfo: EducationType[] = [
 
 export const experience: ExperienceType[] = [
   {
+    role: "Frontend and AI Developer Intern",
+    company: "Intellium",
+    companyLogo: "/img/icons/common/intellium_logo.jpg",
+    date: "Sep 2025 - Present · 4 months",
+    desc: "Working as a Frontend and AI Developer Intern, contributing to modern web applications and AI-powered solutions.",
+    location: "Istanbul, Turkey",
+    workType: "Remote",
+    skills: ["JavaScript", "React.js", "AI Development", "Machine Learning"],
+  },
+  {
+    role: "Frontend Web Developer",
+    company: "Elazığ Provincial Special Administration",
+    companyLogo: "/img/icons/common/a.png",
+    date: "Jul 2025 - Aug 2025 · 1 months",
+    desc: "Worked as a Frontend Web Developer Intern, developing and maintaining web applications for the provincial administration.",
+    location: "Elazığ, Turkey",
+    workType: "On-site",
+    skills: ["Web Development", "Databases", "Frontend Technologies"],
+  },
+  {
     role: "Software Web Developer",
     company: "Elazig Municipality IT Department",
     companyLogo: "/img/icons/common/elazig-belediyesi-screen.png",
-    date: "2 Oct 2024 - 27 Oct 2024",
+    date: "1 Months",
+    location: "Elazığ, Turkey",
+    workType: "On-site",
     desc: "I worked as a Web Developer Intern at the municipality. During this period, I actively participated in development efforts for the municipality's official website. As part of the project, I designed and implemented the 'Frequently Asked Questions (FAQ)' section to help citizens access information more quickly. In addition, I contributed to backend development of various web applications, APIs, and WebSocket-based solutions.",
+    skills: ["JavaScript" ,"REACT JS" , "HTML","CSS" ,"SQL Server"],
   },
   
 ];
 
 export const projects: ProjectType[] = [
   {
+    id: "1",
+    slug: "heart-attack",
     name: "Heart Attack",
     desc: "A machine learning AI project that analyzes and predicts heart attack risk",
     github: "https://github.com/yasintuncc/Heartattacak",
-    
+    category: "Artificial Intelligence",
+    technologies: ["Python", "Machine Learning", "scikit-learn", "Pandas", "NumPy"],
+    date: "2024",
   },
   {
+    id: "2",
+    slug: "mushroom-classification",
     name: "mushroom-classification",
     desc: "In this project, whether mushrooms are edible or stored cannot be predicted using machine learning techniques.",
     github: "https://github.com/yasintuncc/mushroom-classification",
-    
+    category: "Artificial Intelligence",
+    technologies: ["Python", "Machine Learning", "scikit-learn", "Data Analysis"],
+    date: "2024",
   },
   {
+    id: "3",
+    slug: "water-analysis",
     name: "Determination_of_Water_Analysis",
     desc: "In this project, I aimed to determine the quality of water by evaluating the chemical analysis results of water samples.",
     github: "https://github.com/yasintuncc/Determination_of_Water_Analysis",
-    
+    category: "Artificial Intelligence",
+    technologies: ["Python", "Machine Learning", "Data Analysis", "Pandas"],
+    date: "2024",
   },
   {
+    id: "4",
+    slug: "personal-website",
     name: "my personal website",
     desc: "A modern portfolio website showcasing my web development and AI skills. Built with React.js and TypeScript, featuring animated components and responsive design. The site presents my projects, experiences, and technical expertise in a clean, user-friendly interface.",
     github: "https://github.com/yasintuncc/yasintunc-portfolio",
+    category: "Web Development",
+    technologies: ["React.js", "TypeScript", "Next.js", "CSS", "HTML"],
+    date: "2024",
   },
   {
+    id: "5",
+    slug: "microservice-ecommerce",
     name: "MicroService E-Commerce Site",
     desc: "In this project developed with .NET 8 and C#, modules such as product, order, and authentication were built by separating them with microservice architecture. Inter-service communication was provided with RabbitMQ, and API Gateway was implemented with Ocelot. A scalable and modular e-commerce infrastructure was created using the SQL Server database.",
     link: "https://github.com/yasintuncc/MikroServicesEticaret",
+    category: "Backend Development",
+    technologies: [".NET 8", "C#", "Microservices", "RabbitMQ", "SQL Server", "Ocelot"],
+    date: "2024",
   },
   {
+    id: "6",
+    slug: "fitness-app",
     name: "fitness App",
     desc: "A useful mobile application where users can learn sports movements",
     link: "https://github.com/yasintuncc/fitness-uygulamas-",
+    category: "Mobile Development",
+    technologies: ["React Native", "JavaScript", "Mobile App"],
+    date: "2024",
   },
   {
+    id: "7",
+    slug: "calculator",
     name: "calculator-original",
     desc: "a nice looking calculator",
     link: "https://github.com/yasintuncc/calculator-original",
+    category: "Web Development",
+    technologies: ["HTML", "CSS", "JavaScript"],
+    date: "2024",
   },
 ];
 
@@ -248,8 +303,8 @@ export const seoData: SEODataType = {
   title: "Yasin Tunç",
   description: greetings.description,
   author: "Hanzla Tauqeer",
-  image: "https://avatars.githubusercontent.com/u/59178380?v=4",
-  url: "https://developer-portfolio-1hanzla100.vercel.app",
+  image: "",
+  url: "",
   keywords: [
     "Hanzla",
     "Hanzla Tauqeer",
